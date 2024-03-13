@@ -1,0 +1,24 @@
+{
+  "student": [
+    {
+      "id": "6773",
+      "name": "den",
+      "course": "rafting"
+    },
+    {
+      "name": "janvi joshi",
+      "course": "cooking chinese food",
+      "id": "5382"
+    },
+    {
+      "id": "fe50",
+      "name": "ap",
+      "course": "life"
+    },
+    {
+      "id": "5f75",
+      "name": "jimmy",
+      "course": "bowling"
+    }
+  ]
+}

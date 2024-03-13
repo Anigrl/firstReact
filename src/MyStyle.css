@@ -1,0 +1,56 @@
+.myst {
+  background: blueviolet;
+  color: white;
+  font-size: 50px;
+}
+
+input {
+  width: 50%;
+}
+
+.quizContainer {
+  /* background-color: red; */
+  max-width: 700px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+
+
+}
+
+.questionNoBox {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+
+.question {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.answers {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  padding: 1rem;
+  /* justify-content: left; */
+}
+
+.btn-box {
+  margin-top: 2rem;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  margin-top: 5rem;
+}
+
+.timer{
+  font-weight: 100;
+}

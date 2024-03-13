@@ -1,0 +1,48 @@
+import logo from './logo.svg';
+import './App.css';
+import './MyStyle.css'
+
+
+function App() {
+
+
+
+
+  return (
+    <div>
+
+      <center><h1>Welcome to React Tutorial</h1></center><hr />
+
+      <div>
+        <div className='row'>
+          <div className='col-md-4'></div>
+          <div className='col-md-4'>
+        <h2 className='text-center'>Form</h2>
+        
+          <label for="first">Enter first number : </label>
+          <input  className='form-control' id="first" type='number' placeholder='first number'></input>
+
+          <label for="last">Enter second number : </label>
+          <input  className='form-control' id="last" type='number' placeholder='second number'></input>
+
+          <label for="result">result : </label>
+          <input  className='form-control' id="result" type='number' placeholder='result'></input>
+
+          <div className='d-flex p-2 justify-content-evenly'>
+            <button className='btn btn-primary'>Add</button>
+          </div>
+
+
+      </div>
+</div>
+</div>
+    </div>
+  );
+}
+
+
+
+
+
+
+export default App;
